@@ -29,6 +29,7 @@ export const BaseNode = ({ title, subTitle = "", handles = [], children }) => {
       {/* handles */}
       {handles.map((handle) => (
         <Handle
+          className="handle"
           key={handle.id}
           type={handle.type}
           id={handle.id}

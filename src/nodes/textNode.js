@@ -65,7 +65,7 @@ export const TextNode = ({ id, data }) => {
           ref={inputRef}
           value={currText}
           onChange={handleTextChange}
-          className="bg-[#8A36CF] text-white rounded-sm w-full resize-none p-1 mt-1"
+          className="bg-[#8A36CF] text-white rounded-sm w-full resize-none p-1 mt-1 overflow-clip"
           style={{ height: nodeSize.height }}
         />
       </label>
