@@ -28,6 +28,7 @@ export const LoopNode = ({ id }) => {
           value={loopType}
           onChange={(e) => setLoopType(e.target.value)}
           style={{ width: "100%", marginTop: 4 }}
+          className="bg-[#8b41cf] rounded-sm"
         >
           <option value="for">for</option>
           <option value="while">while</option>

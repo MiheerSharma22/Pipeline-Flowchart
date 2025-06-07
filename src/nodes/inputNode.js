@@ -30,11 +30,20 @@ export const InputNode = ({ id, data }) => {
     <BaseNode title={"Input"} handles={handles}>
       <label>
         Name:
-        <input type="text" value={currName} onChange={handleNameChange} />
+        <input
+          type="text"
+          value={currName}
+          onChange={handleNameChange}
+          className="bg-[#8b41cf] px-2 rounded-sm"
+        />
       </label>
       <label>
         Type:
-        <select value={inputType} onChange={handleTypeChange}>
+        <select
+          value={inputType}
+          onChange={handleTypeChange}
+          className="mt-2 bg-[#8b41cf] rounded-sm ml-1"
+        >
           <option value="Text">Text</option>
           <option value="File">File</option>
         </select>

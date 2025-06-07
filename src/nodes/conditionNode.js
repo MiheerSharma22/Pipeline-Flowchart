@@ -40,6 +40,7 @@ export const ConditionNode = ({ id }) => {
           type="text"
           value={condition}
           onChange={(e) => setCondition(e.target.value)}
+          className="bg-[#8b41cf] rounded-sm px-2"
         />
       </label>
     </BaseNode>

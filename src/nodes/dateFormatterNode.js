@@ -28,7 +28,11 @@ export const DateFormatterNode = ({ id }) => {
     >
       <label>
         Format:
-        <select value={format} onChange={(e) => setFormat(e.target.value)}>
+        <select
+          value={format}
+          onChange={(e) => setFormat(e.target.value)}
+          className="bg-[#8b41cf] rounded-sm ml-1"
+        >
           <option value="YYYY-MM-DD">YYYY-MM-DD</option>
           <option value="MM/DD/YYYY">MM/DD/YYYY</option>
           <option value="DD-MM-YYYY">DD-MM-YYYY</option>

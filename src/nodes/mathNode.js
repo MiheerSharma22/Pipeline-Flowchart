@@ -33,6 +33,7 @@ export const MathNode = ({ id }) => {
         <select
           value={operation}
           onChange={(e) => setOperation(e.target.value)}
+          className="bg-[#8b41cf] rounded-sm ml-1"
         >
           <option value="+">+</option>
           <option value="-">−</option>

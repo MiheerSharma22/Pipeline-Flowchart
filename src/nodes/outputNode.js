@@ -30,7 +30,11 @@ export const OutputNode = ({ id, data }) => {
       </label>
       <label>
         Type:
-        <select value={outputType} onChange={handleTypeChange}>
+        <select
+          value={outputType}
+          onChange={handleTypeChange}
+          className="bg-[#8b41cf] rounded-sm ml-1"
+        >
           <option value="Text">Text</option>
           <option value="File">Image</option>
         </select>
